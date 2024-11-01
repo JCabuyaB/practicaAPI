@@ -10,7 +10,7 @@ const fetchPopulares = async (filtro = 'movie', pagina = 1) => {
         method: 'GET',
         headers:{
             accept: 'application/json',
-            Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2NjBjODhiNTk4MjNmNjM5MGRkOGViNTIwMmIxMTdmOCIsIm5iZiI6MTczMDA3Mzk1MC44NDE3NzksInN1YiI6IjY3MWU5Mzc3Yzc4MDJjYzUwMzVhNzEwMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.MNtDnLzGscJN9rlbNydJ453vEwdZrk2FflsduzjsecE'
+            // token TMDB
         }
     }
 

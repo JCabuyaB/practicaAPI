@@ -8,7 +8,7 @@ const fetchGeneros = async (filtro = 'movie') => {
         method: 'GET',
         headers: {
             accept: 'application/json',
-            Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2NjBjODhiNTk4MjNmNjM5MGRkOGViNTIwMmIxMTdmOCIsIm5iZiI6MTczMDE1NzAzOS4zMjIxOTUsInN1YiI6IjY3MWU5Mzc3Yzc4MDJjYzUwMzVhNzEwMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.35uh8T8RcNFKWQjVgL1swehrXCcLAef8kx9ety1cuG8'
+            // token TMDB
         }
     };
     
@@ -44,7 +44,7 @@ const fetchPopulares = async (filtro = 'movie', pagina = 1) => {
         method: 'GET',
         headers:{
             accept: 'application/json',
-            Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2NjBjODhiNTk4MjNmNjM5MGRkOGViNTIwMmIxMTdmOCIsIm5iZiI6MTczMDA3Mzk1MC44NDE3NzksInN1YiI6IjY3MWU5Mzc3Yzc4MDJjYzUwMzVhNzEwMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.MNtDnLzGscJN9rlbNydJ453vEwdZrk2FflsduzjsecE'
+            // token TMDB
         }
     };
 
@@ -176,7 +176,7 @@ const fetchBusqueda = async (pagina = 1) => {
         method: 'GET',
         headers: {
             accept: 'application/json',
-            Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2NjBjODhiNTk4MjNmNjM5MGRkOGViNTIwMmIxMTdmOCIsIm5iZiI6MTczMDM0MDExNS42MjUwNzM0LCJzdWIiOiI2NzFlOTM3N2M3ODAyY2M1MDM1YTcxMDMiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.5_kBQIZ5BAGfEAKqMLb-sXI3pRHmG2h2Rcy1V2DWYlU'
+            // token TMDB
         }
     };
 
@@ -214,7 +214,7 @@ const fetchItem = async (id) => {
         method: 'GET',
         headers: {
             accept: 'application/json', 
-            Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2NjBjODhiNTk4MjNmNjM5MGRkOGViNTIwMmIxMTdmOCIsIm5iZiI6MTczMDM0MDExNS42MjUwNzM0LCJzdWIiOiI2NzFlOTM3N2M3ODAyY2M1MDM1YTcxMDMiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.5_kBQIZ5BAGfEAKqMLb-sXI3pRHmG2h2Rcy1V2DWYlU'
+            // token TMDB
         }
     };
 
